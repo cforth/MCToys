@@ -101,13 +101,13 @@ def diyu_script():
     print("fill ~ 3 ~100 ~100 30 ~100 obsidian")
 
 
-def yuan_script():
-    with open('E:/111.csv', encoding='gbk') as f:
+def yuan_bing_script():
+    with open('circle_surface.csv', encoding='gbk') as f:
         reader = csv.reader(f)
         header = next(reader)
         # print(header)
         for row in reader:
-            print("fill ~%s ~ ~%s ~%s ~ ~%s stone" % (row[0], row[1], row[0], row[2]))
+            print("fill ~%s ~ ~%s ~%s ~ ~%s stone" % (row[0], row[1], row[2], row[3]))
 
 
 def yuan_qiang_script():
@@ -128,5 +128,5 @@ if __name__ == '__main__':
     # flat_block_script(20, 10, "stonebrick")
     # vertical_block_x_script(20, 10, "stonebrick")
     # hai_script(100)
-    # yuan_script()
+    # yuan_bing_script()
     yuan_qiang_script()
