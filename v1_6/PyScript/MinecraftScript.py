@@ -110,6 +110,15 @@ def yuan_script():
             print("fill ~%s ~ ~%s ~%s ~ ~%s stone" % (row[0], row[1], row[0], row[2]))
 
 
+def yuan_qiang_script():
+    with open('circle_line.csv', encoding='gbk') as f:
+        reader = csv.reader(f)
+        header = next(reader)
+        # print(header)
+        for row in reader:
+            print("fill ~%s ~-1 ~%s ~%s ~9 ~%s stone" % (row[0], row[1], row[0], row[1]))
+
+
 if __name__ == '__main__':
     # diyu_script()
     # pyramid_script2(80, "gold_block")
@@ -119,4 +128,5 @@ if __name__ == '__main__':
     # flat_block_script(20, 10, "stonebrick")
     # vertical_block_x_script(20, 10, "stonebrick")
     # hai_script(100)
-    yuan_script()
+    # yuan_script()
+    yuan_qiang_script()

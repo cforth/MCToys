@@ -62,8 +62,8 @@ def circle_line_coordinate(a, b, r):
     return result
 
 
-cl = circle_line_coordinate(-10, 20, 39)
-path = 'E:/111.csv'
+cl = circle_line_coordinate(0, 0, 100)
+path = './circle_line.csv'
 
 with open(path, 'w', newline="") as f:
     csv_write = csv.writer(f)
