@@ -1,0 +1,24 @@
+{
+  "format_version": "1.16.0",
+
+  "minecraft:block": {
+    "description": {
+      "identifier": "familycraft:nutnt",
+      "register_to_creative_menu": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:loot": "loot_tables/nutnt.json",
+      "minecraft:map_color": "#c46340",
+      "minecraft:block_light_absorption": 15,
+      "minecraft:block_light_emission": 1,
+      "minecraft:explosion_resistance": 10,
+      "minecraft:destroy_time": 1.25,
+      "minecraft:friction": 0.6,
+      "minecraft:flammable": {
+        "flame_odds": 0,
+        "burn_odds": 0
+      }
+    }
+  }
+}

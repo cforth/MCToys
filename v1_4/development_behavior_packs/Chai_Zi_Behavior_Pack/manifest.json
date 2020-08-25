@@ -1,0 +1,17 @@
+{
+   "format_version": 1,
+   "header": {
+     "description": "Chai Zi Behavior Pack",
+     "name": "Chai Zi Behavior Pack",
+     "uuid": "42f84dcb-42a3-6bad-9f59-c124484d8a82",
+     "version": [0, 0, 1]
+   },
+   "modules": [
+     {
+       "description": "Chai Zi Behavior Pack",
+       "type": "data",
+       "uuid": "207ab2aa-712b-0f8a-e334-2d2c02280813",
+       "version": [0, 0, 1]
+     }
+   ]
+}

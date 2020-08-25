@@ -1,0 +1,37 @@
+{
+  "format_version": [ 1, 1, 0 ],
+
+  "familycraft:myspace": {
+    "textures": {
+      "up": "top",
+      "down": "sides",
+      "north": "sides",
+      "south": "front",
+      "west": "sides",
+      "east": "sides"
+    },
+    "sound": "wood"
+  },
+  "familycraft:zi": {
+    "textures": {
+      "up": "zi",
+      "down": "zi",
+      "north": "zi",
+      "south": "zi",
+      "west": "zi",
+      "east": "zi"
+    },
+    "sound": "wood"
+  },
+  "familycraft:nutnt": {
+    "textures": {
+      "up": "nutnt",
+      "down": "nutnt",
+      "north": "nutnt",
+      "south": "nutnt",
+      "west": "nutnt",
+      "east": "nutnt"
+    },
+    "sound": "wood"
+  }
+}
